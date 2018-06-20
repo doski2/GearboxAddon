@@ -128,10 +128,27 @@ Changement 3.0:
 ]]></fr>
 		<es><![CDATA[Descripción:
 Cambio Manual/automático para FS17 por Mogli]]></es>
-	<cz><![CDATA[
-Každý traktor nemá zjednodušené ovládání jako stroje ve Farming simulátoru. Tento mod přidává do každého stroje reálnější simulaci řazení převodových stupnů.
-Od manuálního řazení se spojkou a meziplynem, přes různe řady násobičů a redukcí, přes plně automatickou převodovku až po bezestupňové řazení (CVT).
-Vše se odvíjí od nastavení každého stroje zvlášť v  souboru gearboxAddonConfig.xml. Mód podporuje volanty se spojkou i řadící pákou, což stupňuje požitek ze hry.]]></cz>
+	<es><![CDATA[
+No todos los tractores tienen una transmisión continuamente variable.
+E incluso las transmisiones continuamente variables no son tan simples como la transmisión estándar de FS17.
+Basado en el archivo de configuración gearboxAddonConfig.xml, este mod agregará el cambio a los tractores preconfigurados.
+En este caso, es posible simular transmisiones muy diferentes.
+
+Hay cajas de cambios clásicas con engranajes, uno o dos grupos y la marcha atrás como engranaje en el primer o segundo grupo o como un circuito de inversión.
+Si acorta el tiempo de conmutación a cero (o un poco más), entonces se trata de una transmisión de cambio de potencia.
+En los tractores modernos, las fases Powershift a menudo se cambian automáticamente.]]></cz>
+
+Además de las unidades de paso normales y las transmisiones continuamente variables son compatibles.
+Hay modelos con uno o dos engranajes, como el Fendt Vario.
+Otros modelos combinan automáticamente cuatro engranajes mecánicos con una transmisión hidrostática continuamente variable.
+Todas estas transmisiones continuamente variables tienen en común que la eficiencia varía bastante fuertemente dependiendo de la relación de transmisión.
+		
+Además, están los modos AllAuto y ECO.
+En el modo ECO, el torque máximo está disponible pero solo al 90% de la potencia.
+En el modo ECO, la velocidad de la TDF es menor (50% en vez de 75%) y aumenta un poco más rápido.
+En el modo AllAuto, los engranajes, los grupos (solo la transmisión del primer grupo) y el embrague se controlan automáticamente.
+En este modo, el ayudante guía con GearboxAddon.]]></es>
+	
 	<pl><![CDATA[Skrzynia biegów:
 Dodaje specjalizację 'gearboxMogli' do wszystkich skonfigurowanych pojazdów.]]></pl>
 	
